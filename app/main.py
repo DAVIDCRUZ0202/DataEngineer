@@ -5,8 +5,8 @@ import uvicorn
 from .routers import predict
 
 app = FastAPI(
-    title='DS API',
-    description='Lorem ipsum',
+    title='Pulsify API',
+    description='Recommends music to users based on song input',
     version='0.1',
     docs_url='/',
 )
